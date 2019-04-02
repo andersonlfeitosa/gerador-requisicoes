@@ -1,0 +1,229 @@
+{
+  "id": "1",
+  "method": "createSaveQuoteAndBind_GCS",
+  "params": [
+    {
+      "draftData": {
+        "accountHolder": {
+          "tempID": 1,
+          "accountHolder": true,
+          "primaryPhoneType": "home",
+          "firstName": "Viviana Torres",
+          "lastName": "Viviana",
+          "emailAddress1": "alterado@gcs.com.br",
+          "homePhoneCountryCode_GCS": "BR",
+          "homeNumber": "(22) 2222-1222",
+          "workPhoneCountryCode_GCS": "BR",
+          "workNumber": "(44) 4444-4444",
+          "cellPhoneCountryCode_GCS": "BR",
+          "cellNumber": "(33) 3333-3333",
+          "dateOfBirth": "1970-12-09T12:00:00.000Z",
+          "taxID": " ",
+          "gender_GCS": "F",
+          "salaryRange_GCS": "Band1",
+          "professionCode_GCS": "999105",
+          "nationality_GCS": "BR",
+          "maritalStatus": "M"
+        },
+        "policyAddress": {
+          "postalCode": "72010-050",
+          "country": "BR",
+          "type": "billing",
+          "addressLine1": "C 5",
+          "addressLine2": "Edificio 1",
+          "city": "Brasilia",
+          "state": "BR_DF",
+          "neighborhood_GCS": "TAGUATINGA CENTRO (TAGUATINGA)"
+        },
+        "productCode": "PersonalAuto",
+        "periodStartDate": " ",
+        "lobs": {
+          "personalAuto": {
+            "drivers": [
+              {
+                "person": {
+                  "firstName": "Viviana Torres",
+                  "lastName": "Viviana",
+                  "dateOfBirth": "1970-12-09T12:00:00.000Z",
+                  "tempID": 1,
+                  "accountHolder": true,
+                  "homePhoneCountryCode_GCS": "BR",
+                  "homeNumber": "(22) 2222-1222",
+                  "taxID": " "
+                },
+                "tempID": 2,
+                "dateOfBirth": "1959-05-10T23:00:00Z",
+                "gender": "F",
+                "isPolicyHolder": true
+              },
+              {
+                "person": {
+                  "tempID": 3,
+                  "firstName": "Caetano Veloso",
+                  "lastName": "Caetano",
+                  "taxID": "444.648.618-73",
+                  "homePhoneCountryCode_GCS": "BR",
+                  "homeNumber": "(22) 2222-1222"
+                },
+                "tempID": 4,
+                "dateOfBirth": "1964-06-15T23:00:00.000Z",
+                "gender": "M"
+              }
+            ],
+            "vehicles": [
+              {
+                "tempID": 5,
+                "costNew": {
+                  "amount": 23344
+                },
+                "vin": "342323222",
+                "make": "CITROEN",
+                "model": "C3 TENDANCE 1.5 FLEX 8V 5P MEC.",
+                "year": 2013,
+                "license": "AAA-4566",
+                "licenseState": "BR_DF",
+                "primaryUse": "Particular_GCS",
+                "leaseOrRent": false,
+                "chassi_GCS": "12345",
+                "fuelType_GCS": "Gasoline",
+                "kilometersPerDay_GCS": "20",
+                "armored_GCS": false,
+                "origin_GCS": "National",
+                "passengerNumbers_GCS": 4,
+                "zeroKMVehicle_GCS": true,
+                "hiringWayType_GCS": "GuaranteedReplacement",
+                "fipeCategory_GCS": "AAA",
+                "codFipe_GCS": "BBB",
+                "validationPartnerType_GCS": "Not",
+                "trackerType_GCS": "Iinstalled",
+                "adjustmentFactor_GCS": "70",
+                "rateCategory_GCS": "ABC",
+                "assistanceCategory_GCS": "F",
+                "additionalInterests_GCS": [
+                  {
+                    "certRequired": true,
+                    "contractNumber": "23434",
+                    "contact": {
+                      "taxID": "268.928.788-90",
+                      "person": {
+                        "tempID": 6,
+                        "firstName": "Addtl Torres",
+                        "lastName": "Addtl",
+                        "dateOfBirth": "1970-12-09T12:00:00.000Z",
+                        "homePhoneCountryCode_GCS": "BR",
+                        "homeNumber": "(22) 2222-1222"
+                      }
+                    }
+                  },
+                  {
+                    "certRequired": false,
+                    "contractNumber": "22224",
+                    "contact": {
+                      "taxID": "33.036.463/0001-62",
+                      "company": {
+                        "tempID": 7,
+                        "name": "Addtl Company"
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "preQualQuestionSets": [
+              {
+                "code": "PAPersonalAutoPreQual",
+                "answers": {
+                  "PAPersonalAutoPreQua_CarPassengers": "false",
+                  "PriorDeclinedPolicy": "false",
+                  "Suspense": "false",
+                  "MovingViolations2": "false",
+                  "PACurrentlyInsured": "newdriver",
+                  "CurrentSuspense": "false",
+                  "PAPersonalAutoPreQua_VenicheCommercial": "false",
+                  "PAPersonalAutoPreQua_GCS": "false",
+                  "DriverNameConviction": null
+                }
+              }
+            ],
+            "customQuote_GCS": {
+              "quote": {
+                "branchName": "CUSTOM",
+                "branchCode": "CUSTOM",
+                "isCustom": true,
+                "total": {
+                  "amount": 4,
+                  "currency": "brl"
+                },
+                "monthlyPremium": {
+                  "amount": 0.07,
+                  "currency": "brl"
+                },
+                "termMonths": 60,
+                "taxes": {
+                  "amount": 0,
+                  "currency": "brl"
+                },
+                "totalBeforeTaxes": {
+                  "amount": 4,
+                  "currency": "brl"
+                },
+                "lobs": {
+                  "personalAuto": {
+                    "vehicleCoverages": [
+                      {
+                        "vehicleName": "C3 TENDANCE 1.5 FLEX 8V 5P MEC.",
+                        "coverages": [
+                          {
+                            "updated": false,
+                            "terms": [
+                              {
+                                "patternCode": "GCS_PA_TCompreensivaColisaoIncendioRouboLimit",
+                                "options": [],
+                                "chosenTerm": "25000.00",
+                                "chosenTermValue": "25.000,00",
+                                "directValue": "25000.00",
+                                "updated": true
+                              },
+                              {
+                                "patternCode": "GCS_PA_TCompreensivaColisaoIncendioRoudoReint",
+                                "options": [
+                                  {
+                                    "code": "z8ujq8h5te42v50lr5v7p4ttioa",
+                                    "optionValue": "1"
+                                  }
+                                ],
+                                "chosenTerm": "z8ujq8h5te42v50lr5v7p4ttioa",
+                                "chosenTermValue": "1",
+                                "updated": true
+                              }
+                            ],
+                            "selected": true,
+                            "publicID": "GCS_PA_CompreenColisIncendRouboIndenizIntegralCov"
+                          }
+                        ]
+                      }
+                    ],
+                    "lineCoverages": []
+                  }
+                }
+              }
+            }
+          }
+        },
+        "questionSetNames": [],
+        "salesChannel_GCS": "1002",
+        "isProposal_GCS": false,
+        "externalProposalNumber_GCS": "1401567886777",
+        "specialAcceptance_GCS": false,
+        "comboAsisstancesCode_GCS": "CA1",
+        "externalRatingXMLResponse_GCS": "<?xml version=\"1.0\"?>"
+      },
+      "bindData": {
+        "selectedPaymentPlanName_GCS": "Multiriscos",
+        "paymentMethodDownPayment_GCS": "creditcard",
+        "paymentMethodInstallments_GCS": "creditcard"
+      }
+    }
+  ],
+  "jsonrpc": "2.0"
+}

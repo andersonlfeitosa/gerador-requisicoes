@@ -1,0 +1,181 @@
+{
+  "id": "1",
+  "method": "createSaveQuoteAndBind_GCS",
+  "jsonrpc": "2.0",
+  "params": [
+    {
+      "draftData": {
+        "accountHolder": {
+          "tempId": 1,
+          "accountHolder": true,
+          "primaryPhoneType": "home",
+          "firstName": "Rodrigo Brancher",
+          "lastName": " ",
+          "emailAddress1": "rbrancher@gmail.com",
+          "homeNumber": "(11) 3211-1320",
+          "homePhoneCountryCode_GCS": "BR",
+          "workPhoneCountryCode_GCS": "BR",
+          "cellPhoneCountryCode_GCS": "BR",
+          "dateOfBirth": "1984-01-28T00:00:00.000-03:00",
+          "taxID": " ",
+          "gender_GCS": "M",
+          "salaryRange_GCS": "Band4",
+          "professionCode_GCS": 530056,
+          "nationality_GCS": "BR",
+          "maritalStatus": "M"
+        },
+        "policyAddress": {
+          "postalCode": "01046-010",
+          "country": "BR",
+          "type": "billing",
+          "addressLine1": "AVENIDA IPIRANGA",
+          "addressLine2": "",
+          "city": "SAO PAULO",
+          "state": "BR_SP",
+          "neighborhood_GCS": "REPUBLICA"
+        },
+        "periodStartDate": " ",
+        "productCode": "AAHAandH",
+        "lobs": {
+          "aAHAandH": {
+            "policyAddress": {
+              "addressLine1": "AVENIDA IPIRANGA",
+              "addressLine2": "",
+              "city": "SAO PAULO",
+              "state": "BR_SP",
+              "postalCode": "01046-010",
+              "country": "BR",
+              "addressType": "home",
+              "neighborhood_GCS": "REPUBLICA"
+            },
+            "aandHPartys": [
+              {
+                "tempId_GCS": "10",
+                "coveredPerson": {
+                  "tempID": 1,
+                  "primaryPhoneType": "home",
+                  "firstName": "Rodrigo Brancher",
+                  "lastName": " ",
+                  "emailAddress1": "rbrancher@gmail.com",
+                  "homeNumber": "(11) 3211-1320",
+                  "homePhoneCountryCode_GCS": "BR",
+                  "workPhoneCountryCode_GCS": "BR",
+                  "cellPhoneCountryCode_GCS": "BR",
+                  "dateOfBirth": "1984-01-28T00:00:00.000-03:00",
+                  "taxID": " ",
+                  "gender_GCS": "M",
+                  "accountHolder": true,
+                  "salaryRange_GCS": "Band4",
+                  "professionCode_GCS": 530056,
+                  "nationality_GCS": "BR",
+                  "maritalStatus": "M"
+                },
+                "coveredPersonRole": "PrimaryInsured",
+                "additionalInterests_GCS": [
+                  {
+                    "relationship_GCS": "Parent",
+                    "person": {
+                      "tempID": 19992,
+                      "firstName": "Alice Viggiani",
+                      "lastName": " ",
+                      "homePhoneCountryCode_GCS": "BR"
+                    },
+                    "percentageCompensation": "100.0"
+                  }
+                ]
+              }
+            ],
+            "customQuote_GCS": {
+              "quote": {
+                "branchName": "CUSTOM",
+                "branchCode": "CUSTOM",
+                "isCustom": true,
+                "total": {
+                  "amount": 4,
+                  "currency": "brl"
+                },
+                "monthlyPremium": {
+                  "amount": 0.07,
+                  "currency": "brl"
+                },
+                "termMonths": 60,
+                "taxes": {
+                  "amount": 0,
+                  "currency": "brl"
+                },
+                "totalBeforeTaxes": {
+                  "amount": 4,
+                  "currency": "brl"
+                },
+                "lobs": {
+                  "aAHAandH": {
+                    "basePremium": {
+                      "amount": 4,
+                      "currency": "brl"
+                    },
+                    "aahPartyCoverages": [
+                      {
+                        "tempId_GCS": "10",
+                        "coverages": [
+                          {
+                            "name": "Morte por causas naturais e acidentais",
+                            "updated": false,
+                            "terms": [
+                              {
+                                "name": "Limite",
+                                "patternCode": "GCS_AAH_MorteCausasNaturaisEAcidentaisCovLimit",
+                                "options": [],
+                                "chosenTerm": "30000.00",
+                                "chosenTermValue": "30.000,00",
+                                "directValue": "30000.00",
+                                "isAscendingBetter": true,
+                                "updated": true,
+                                "valueType": "Money"
+                              },
+                              {
+                                "name": "Reintegração",
+                                "patternCode": "GCS_AAH_MorteCausasNaturaisCovReintegracao",
+                                "options": [
+                                  {
+                                    "name": "Reintegração",
+                                    "code": "z0ji4tqbdhdiudffmd9el83b2s8",
+                                    "optionValue": 1
+                                  }
+                                ],
+                                "chosenTerm": "z0ji4tqbdhdiudffmd9el83b2s8",
+                                "chosenTermValue": "1",
+                                "isAscendingBetter": true,
+                                "updated": true,
+                                "valueType": "Money"
+                              }
+                            ],
+                            "selected": true,
+                            "required": true,
+                            "publicID": "GCS_AAH_MorteCausasNaturaisEAcidentaisCov",
+                            "description": "Morte por causas naturais e acidentais"
+                          }
+                        ]
+                      }
+                    ],
+                    "lineCoverages": []
+                  }
+                }
+              }
+            }
+          }
+        },
+        "questionSetNames": [],
+        "salesChannel_GCS": "1002",
+        "isProposal_GCS": false,
+        "externalProposalNumber_GCS": "91010000000002",
+        "specialAcceptance_GCS": false,
+        "externalRatingXMLResponse_GCS": "<retorno><pctComissao>1.01</pctComissao><pctIOF>7.38</pctIOF><qtdAnos>5</qtdAnos><vlrLiquido>721.21</vlrLiquido><vlrAdicional>0</vlrAdicional><vlrIOF>53.23</vlrIOF><vlrPremio>774.43</vlrPremio><vlrParcelamento>12.91</vlrParcelamento><lstCoberturas><codIdentificador>1</codIdentificador><vlrCobertura>324.75</vlrCobertura><vlrMensal>27.06</vlrMensal></lstCoberturas><lstCoberturas><codIdentificador>2</codIdentificador><vlrCobertura>116.83</vlrCobertura><vlrMensal>9.74</vlrMensal></lstCoberturas><lstCoberturas><codIdentificador>3</codIdentificador><vlrCobertura>279.63</vlrCobertura><vlrMensal>23.30</vlrMensal></lstCoberturas></retorno>"
+      },
+      "bindData": {
+        "selectedPaymentPlanName_GCS": "Multiriscos",
+        "paymentMethodDownPayment_GCS": "creditcard",
+        "paymentMethodInstallments_GCS": "creditcard"
+      }
+    }
+  ]
+}

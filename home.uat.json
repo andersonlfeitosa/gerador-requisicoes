@@ -1,0 +1,210 @@
+{
+  "method": "createSaveQuoteAndBind_GCS",
+  "params": [
+    {
+      "draftData": {
+        "accountHolder": {
+          "tempID": 1,
+          "accountHolder": true,
+          "primaryPhoneType": "home",
+          "firstName": "Viviana Torres",
+          "lastName": "Viviana",
+          "emailAddress1": "alterado@gcs.com.br",
+          "homePhoneCountryCode_GCS": "BR",
+          "homeNumber": "(22) 2222-1222",
+          "workPhoneCountryCode_GCS": "BR",
+          "workNumber": "(44) 4444-4444",
+          "cellPhoneCountryCode_GCS": "BR",
+          "cellNumber": "(33) 3333-3333",
+          "dateOfBirth": "1970-12-09T12:00:00.000Z",
+          "taxID": " ",
+          "gender_GCS": "F",
+          "salaryRange_GCS": "Band1",
+          "professionCode_GCS": "999105",
+          "nationality_GCS": "BR"
+        },
+        "policyAddress": {
+          "postalCode": "72010-050",
+          "country": "BR",
+          "type": "billing",
+          "addressLine1": "C 5",
+          "addressLine2": "Edificio 1",
+          "city": "Brasilia",
+          "state": "BR_DF",
+          "neighborhood_GCS": "TAGUATINGA CENTRO (TAGUATINGA)"
+        },
+        "periodStartDate": " ",
+        "productCode": "Homeowners",
+        "lobs": {
+          "homeowners": {
+            "policyAddress": {
+              "addressLine1": "SCN QUADRA, 5",
+              "addressLine2": "Edificio 1",
+              "city": "Brasilia",
+              "state": "BR_DF",
+              "postalCode": "70715-900",
+              "country": "BR",
+              "addressType": "home",
+              "neighborhood_GCS": "ASA NORTE"
+            },
+            "preQualQuestionSets": [
+              {
+                "code": "GCS_HO_PreQual",
+                "answers": {
+                  "GCS_PatrimonioHistorico": "false",
+                  "GCS_RiskLocalISWoodConstruction": "false",
+                  "GCS_AreaRuralOuAssemelhada": "false",
+                  "GCS_RiskLocalISCollectiveHousing": "false",
+                  "GCS_ConstricaoReformaETC": "false"
+                }
+              }
+            ],
+            "construction": {
+              "yearBuilt": 2005,
+              "storiesNumber": "1",
+              "hasGarage": false,
+              "constructionType": "C",
+              "roofType": "comp",
+              "foundationType": "Slab",
+              "primaryHeatingType": "Electric",
+              "secondaryHeatingExists": true,
+              "plumbingType": "copper",
+              "wiringType": "copper",
+              "electricalType": "CircuitBreaker"
+            },
+            "yourHome": {
+              "distanceToFireHydrant": 500,
+              "distanceToFireStation": 3,
+              "nearCommercial": false,
+              "residenceType": "home",
+              "dwellingLocation": "city",
+              "floodingOrFireHazard": false,
+              "dwellingUsage": "prim",
+              "occupancy": "home_GCS",
+              "replacementCost": 300000,
+              "riskLocation_GCS": false,
+              "realtyMoneyValue_GCS": {
+                "amount": 150000,
+                "currency": "brl"
+              },
+              "wasteland_GCS": false
+            },
+            "rating": {
+              "fireExtinguishers": false,
+              "burglarAlarm": false,
+              "fireAlarm": false,
+              "smokeAlarm": false,
+              "deadbolts": false,
+              "visibleToNeighbors": false,
+              "sprinklerSystemType": "none"
+            },
+            "additionalInterests_GCS": [
+              {
+                "contact": {
+                  "tempID": 6,
+                  "taxID": " ",
+                  "person": {
+                    "firstName": "Addtl Torres"
+                  }
+                }
+              }
+            ],
+            "customQuote_GCS": {
+              "quote": {
+                "branchName": "CUSTOM",
+                "branchCode": "CUSTOM",
+                "isCustom": true,
+                "total": {
+                  "amount": 4,
+                  "currency": "brl"
+                },
+                "monthlyPremium": {
+                  "amount": 0.07,
+                  "currency": "brl"
+                },
+                "termMonths": 60,
+                "taxes": {
+                  "amount": 0,
+                  "currency": "brl"
+                },
+                "totalBeforeTaxes": {
+                  "amount": 4,
+                  "currency": "brl"
+                },
+                "lobs": {
+                  "homeowners": {
+                    "basePremium": {
+                      "amount": 0,
+                      "currency": "brl"
+                    },
+                    "baseCoverages": [
+                      {
+                        "updated": false,
+                        "terms": [
+                          {
+                            "patternCode": "GCS_HO_IncendioCovReintegracao",
+                            "options": [
+                              {
+                                "code": "4",
+                                "optionValue": 4,
+                                "maxValue": 4,
+                                "directValue": "4"
+                              }
+                            ],
+                            "chosenTerm": "4",
+                            "chosenTermValue": "4",
+                            "updated": false
+                          },
+                          {
+                            "patternCode": "GCS_HO_IncendioCovLimit",
+                            "options": [],
+                            "chosenTerm": "35555.55",
+                            "chosenTermValue": "35.555,55",
+                            "directValue": "35555.55",
+                            "updated": true
+                          }
+                        ],
+                        "selected": true,
+                        "publicID": "GCS_HO_IncendioExplosaoRaiosCov"
+                      }
+                    ],
+                    "additionalCoverages": [
+                      {
+                        "updated": false,
+                        "terms": [
+                          {
+                            "patternCode": "GCS_HO_AlagamentoInundacaoCovLimit",
+                            "options": [],
+                            "chosenTerm": "650.00",
+                            "chosenTermValue": "650",
+                            "directValue": "650",
+                            "updated": true
+                          }
+                        ],
+                        "selected": true,
+                        "publicID": "GCS_HO_AlagamentoInundacaoCov"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        "questionSetNames": [],
+        "salesChannel_GCS": "internet",
+        "isProposal_GCS": false,
+        "externalProposalNumber_GCS": "14015678865678",
+        "specialAcceptance_GCS": true,
+        "comboAsisstancesCode_GCS": "CA1",
+        "externalRatingXMLResponse_GCS": "<?xml version=\"1.0\"?>"
+      },
+      "bindData": {
+        "selectedPaymentPlanName_GCS": "Multiriscos",
+        "paymentMethodDownPayment_GCS": "creditcard",
+        "paymentMethodInstallments_GCS": "creditcard"
+      }
+    }
+  ],
+  "jsonrpc": "2.0"
+}
